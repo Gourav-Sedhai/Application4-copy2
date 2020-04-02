@@ -9,3 +9,12 @@
     <p>This is a test website.</p>
 </div>    
 {%endblock%}
+
+#About
+{%extends "layout.htm"%}
+{%block content%}
+<div class="about">
+    <h1>My About Page</h1>
+    <p>This is a test website.</p>
+</div>
+{%endblock%}
