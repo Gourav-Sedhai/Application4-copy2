@@ -131,3 +131,20 @@ h3{
     color: #444;
     text-decoration: none;
 }
+
+#Python File
+from flask import Flask, render_template
+app = Flask(__name__)
+  
+@app.route('/')
+
+def home():
+    return render_template("home.htm")
+
+@app.route('/about/')
+
+def about():
+    return render_template("about.htm")
+
+if __name__ == "__main__":
+    app.run(debug=True)
